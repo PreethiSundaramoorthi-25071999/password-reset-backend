@@ -8,8 +8,8 @@ const jwt = require('jsonwebtoken');
 const User = require("../models/userModels");
 
 // Import bcrypt for hashing passwords
-const bcrypt = require('bcrypt');
-
+// const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 // Import the mailer to sendmail
 const sendMail = require("../mailer/nodeMail")
 
